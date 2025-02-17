@@ -1,5 +1,5 @@
 // @flow strict
-
+import dynamic from "next/dynamic";
 import { experiences } from "@/utils/data/experience";
 import Image from "next/image";
 import { BsPersonWorkspace } from "react-icons/bs";
