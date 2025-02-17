@@ -4,12 +4,8 @@ import { useEffect } from "react";
 
 const GlowCard = ({ children, identifier }) => {
 	useEffect(() => {
-		if (typeof window === "undefined") return; // Ensure the effect runs only in the browser
-
 		const CONTAINER = document.querySelector(`.glow-container-${identifier}`);
 		const CARDS = document.querySelectorAll(`.glow-card-${identifier}`);
-
-		if (!CONTAINER || CARDS.length === 0) return; // Avoid errors if elements don't exist
 
 		const CONFIG = {
 			proximity: 40,
@@ -52,7 +48,6 @@ const GlowCard = ({ children, identifier }) => {
 		document.body.addEventListener("pointermove", UPDATE);
 
 		const RESTYLE = () => {
-			if (!CONTAINER) return;
 			CONTAINER.style.setProperty("--gap", CONFIG.gap);
 			CONTAINER.style.setProperty("--blur", CONFIG.blur);
 			CONTAINER.style.setProperty("--spread", CONFIG.spread);
