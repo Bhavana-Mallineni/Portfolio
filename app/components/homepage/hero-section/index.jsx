@@ -161,7 +161,7 @@ function HeroSection() {
 								<span className="ml-12 lg:ml-15 text-cyan-400">prefersDarkMode: </span>
 								<span className="text-purple-400">true</span>
 								<span className="text-amber-300">,</span>
-								<span className="text-gray-400"> // Light mode? Never heard of it.</span>
+								<span className="text-gray-400"> &#47;&#47;Light mode? Never heard of it.</span>
 							</div>
 							<div>
 								<span className="ml-12 lg:ml-15 text-cyan-400">favoriteError: </span>
