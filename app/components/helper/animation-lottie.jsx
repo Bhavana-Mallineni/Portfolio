@@ -21,13 +21,10 @@
 
 "use client";
 
+import PropTypes from "prop-types";
 import Lottie from "lottie-react";
 
-export interface AnimationLottieProps {
-	animationPath: Record<string, unknown>;
-}
-
-export const AnimationLottie = ({ animationPath }: AnimationLottieProps) => {
+export const AnimationLottie = ({ animationPath }) => {
 	const defaultOptions = {
 		loop: true,
 		autoplay: true,
@@ -38,4 +35,9 @@ export const AnimationLottie = ({ animationPath }: AnimationLottieProps) => {
 	};
 
 	return <Lottie {...defaultOptions} />;
+};
+
+// PropTypes validation (for safety)
+AnimationLottie.propTypes = {
+	animationPath: PropTypes.object.isRequired
 };
