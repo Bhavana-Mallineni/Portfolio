@@ -9,7 +9,7 @@ function Footer() {
 					<div className="absolute top-0 h-[1px] w-1/2 bg-gradient-to-r from-transparent via-violet-500 to-transparent"></div>
 				</div>
 				<div className="flex flex-col items-center gap-3 text-center">
-					<p className="text-sm">You've reached the footer! Thanks for scrolling this far</p>
+					<p className="text-sm">You&apos;ve reached the footer! Thanks for scrolling this far</p>
 					<p className="text-sm">
 						This portfolio is built using a template from
 						<Link

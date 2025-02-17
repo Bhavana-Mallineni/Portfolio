@@ -166,23 +166,25 @@ function HeroSection() {
 							<div>
 								<span className="ml-12 lg:ml-15 text-cyan-400">favoriteError: </span>
 								<span className="text-green-500">
-									"Cannot read properties of undefined - My old friend!"
+									&quot;Cannot read properties of undefined - My old friend!&quot;
 								</span>
 								<span className="text-amber-300">,</span>
 							</div>
 							<div>
 								<span className="ml-12 lg:ml-15 text-cyan-400">favoriteShortcut: </span>
-								<span className="text-green-500">"Ctrl + Z - The 'Oops, I messed up' button."</span>
+								<span className="text-green-500">
+									&quot;Ctrl + Z - The &apos;Oops, I messed up&apos; button.&quot;
+								</span>
 								<span className="mr-2 text-amber-300">,</span>
 							</div>
 							<div>
 								<span className="ml-12 lg:ml-15 text-cyan-400">commitMessages: </span>
 								<span className="text-gray-400">{"["}</span>
-								<span className="text-green-500">"Fixed stuff"</span>
+								<span className="text-green-500">&quot;Fixed stuff&quot;</span>
 								<span className="mr-2 text-gray-400">,</span>
-								<span className="text-green-500">"Finally works"</span>
+								<span className="text-green-500">&quot;Finally works&quot;</span>
 								<span className="mr-2 text-gray-400">,</span>
-								<span className="text-green-500">"Please work this time"</span>
+								<span className="text-green-500">&quot;Please work this time&quot;</span>
 								<span className="text-gray-400">{"]"}</span>
 								<span className="mr-2 text-gray-400">,</span>
 							</div>
@@ -195,7 +197,7 @@ function HeroSection() {
 								<span className="text-yellow-400">{`() => `}</span>
 								<span className="text-gray-400">{`'`}</span>
 								<span className="text-green-300">
-									Every problem has a solution; if not, it's a Feature Request!
+									Every problem has a solution; if not, it&apos;s a Feature Request!
 								</span>
 
 								<span className="text-gray-400">{`'`}</span>
