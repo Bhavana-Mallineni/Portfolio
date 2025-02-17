@@ -47,7 +47,7 @@ which I have customized to match my profile and professional experience.
 
 ## **📜 License**
 This project is **based on an open-source template** from [Developer Portfolio GitHub Repo](https://github.com/said7388/developer-portfolio),  
-which has been **modified** to better suit my personal brand.
+which has been **modified** to better suit my portfolio.
 
 ---
 
