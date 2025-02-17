@@ -6,8 +6,7 @@ import { BsPersonWorkspace } from "react-icons/bs";
 import lottieFile from "../../../assets/lottie/study.json";
 // import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
-
-const AnimationLottie = dynamic(() => import("../../helper/animation-lottie"), { ssr: false });
+import AnimationLottieWrapper from "../../helper/AnimationLottieWrapper"; // Use the new client wrapper
 
 function Education() {
 	return (
@@ -39,7 +38,7 @@ function Education() {
 				<div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
 					<div className="flex justify-center items-start">
 						<div className="w-3/4 h-3/4">
-							<AnimationLottie animationPath={lottieFile} />
+							<AnimationLottieWrapper animationPath={lottieFile} />
 						</div>
 					</div>
 
