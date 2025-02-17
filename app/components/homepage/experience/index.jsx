@@ -7,10 +7,7 @@ import experience from "../../../assets/lottie/code.json";
 // import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
 
-const AnimationLottie = dynamic<AnimationLottieProps>(
-	() => import("../../helper/animation-lottie").then((mod) => mod.AnimationLottie),
-	{ ssr: false }
-);
+const AnimationLottie = dynamic(() => import("../../helper/animation-lottie"), { ssr: false });
 
 function Experience() {
 	return (
