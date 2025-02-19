@@ -1,9 +1,3 @@
-<p align="center" width="100%">
-    <img height="100" src="https://github.com/Bhavana-Mallineni/your-logo.svg">
-</p>
-
----
-
 # **Bhavana Mallineni – Portfolio 🚀**
 
 This is my personal **developer portfolio**, built with **Next.js, React, Node.js, and Tailwind CSS**.  
