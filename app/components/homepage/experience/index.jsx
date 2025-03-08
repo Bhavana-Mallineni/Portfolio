@@ -65,7 +65,7 @@ function Experience() {
 										</div>
 
 										{/* Tech Stack */}
-										<div className="px-3 py-2">
+										{/* <div className="px-3 py-2">
 											<p className="text-sm font-semibold text-gray-300">Tech Stack:</p>
 											<div className="flex flex-wrap gap-2 mt-1">
 												{experience.techStack.map((tech, index) => (
@@ -77,10 +77,10 @@ function Experience() {
 													</span>
 												))}
 											</div>
-										</div>
+										</div> */}
 
 										{/* Description */}
-										<div className="px-3 py-2">
+										{/* <div className="px-3 py-2">
 											<p className="text-sm font-semibold text-gray-300">Key Contributions:</p>
 											<ul className="list-disc list-inside mt-1 mb-1 text-sm text-gray-400 px-2">
 												{experience.description.map((point, index) => (
@@ -89,7 +89,7 @@ function Experience() {
 													</li>
 												))}
 											</ul>
-										</div>
+										</div> */}
 									</div>
 								</GlowCard>
 							))}

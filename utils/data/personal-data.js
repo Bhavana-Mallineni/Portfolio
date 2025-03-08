@@ -1,7 +1,7 @@
 export const personalData = {
 	name: "BHAVANA MALLINENI",
 	profile: "/profile.jpg",
-	designation: "Full Stack Developer",
+	designation: "Junior Software Developer",
 	description:
 		"I am a passionate and self-driven developer with a keen interest in building user-friendly web applications. I enjoy working with both frontend and backend technologies to create efficient and scalable solutions. I love exploring new technologies, solving problems, and continuously improving my skills. Currently, I am focusing on enhancing my expertise in React, Node.js, and real-time applications as I continue to deepen my full-stack development skills.",
 	email: "bhavnamallineni@gmail.com",

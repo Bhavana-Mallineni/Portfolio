@@ -1,6 +1,17 @@
 export const experiences = [
 	{
 		id: 1,
+		title: "Junior Software Developer",
+		company: "ValGenesis",
+		duration: "Mar 2025 - Present"
+		// "techStack": ["React", "Node.js", "Real-time Applications"],
+		// "description": [
+		// 	"Working on building and enhancing web applications with a focus on frontend and backend development.",
+		// 	"Collaborating with cross-functional teams to develop scalable and efficient solutions.",
+		// 	"Exploring real-time applications and modern web technologies to improve user experience."]
+	},
+	{
+		id: 2,
 		title: "Embedded Software Intern",
 		company: "Bosch Global Software Solutions",
 		duration: "Jan 2024 - May 2024",
@@ -12,7 +23,7 @@ export const experiences = [
 		]
 	},
 	{
-		id: 2,
+		id: 3,
 		title: "Technology Development Program Intern",
 		company: "Optum Global solutions",
 		duration: "Jun 2023 - Aug 2023",
