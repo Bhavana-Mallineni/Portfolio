@@ -24,11 +24,11 @@ function HeroSection() {
 				<div className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10">
 					<h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
 						Hello, <br />
-						This is <span className=" text-pink-500">{personalData.name}</span>
+						I'm <span className=" text-pink-400">{personalData.name}</span>
 						{` ,a `}
-						<span className="text-pink-500">{personalData.designation}</span>
-						{` ,at ValGenesis `}
-						{` , and an Aspiring `}
+						<span className="text-blue-400">{personalData.designation}</span>
+						{` at`} <span className="text-white">ValGenesis</span>
+						{` and an Aspiring `}
 						<span className=" text-[#16f2b3]">Full Stack Developer</span>.
 					</h1>
 
