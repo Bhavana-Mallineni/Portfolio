@@ -26,10 +26,10 @@ function HeroSection() {
 						Hello, <br />
 						{` I'm `}
 						<span className=" text-pink-400">{personalData.name}</span>
-						{` ,a `}
+						{/* {` ,a `}
 						<span className="text-blue-400">{personalData.designation}</span>
-						{` at`} <span className="text-white">ValGenesis</span>
-						{` and an Aspiring `}
+						{` at`} <span className="text-white">ValGenesis</span> */}
+						{` an Aspiring `}
 						<span className=" text-[#16f2b3]">Full Stack Developer</span>.
 					</h1>
 
